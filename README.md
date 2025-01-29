@@ -1,2 +1,2 @@
 # cobain
-nyobain hosting
+nyobain hosting saja
