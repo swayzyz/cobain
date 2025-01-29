@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baca Cerita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="judul"></h1>
+        <p id="isi"></p>
+        <br>
+        <button onclick="window.location.href='baca_cerita.html'" class="btn-back">Kembali ke Baca Cerita</button>
+    </div>
+
+    <script>
+        // Ambil parameter dari URL
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById("judul").innerText = params.get("judul");
+        document.getElementById("isi").innerText = params.get("isi");
+    </script>
+</body>
+</html>

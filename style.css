@@ -1,0 +1,177 @@
+/* Mengatur tampilan umum */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #e3f2fd;  /* Warna biru muda yang menenangkan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;  /* Warna putih cerah untuk memberi kesan bersih */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);  /* Bayangan halus untuk memberi dimensi */
+    max-width: 600px;
+    width: 90%;
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);  /* Efek hover untuk lebih dinamis */
+}
+
+/* Kategori dan daftar cerita */
+.kategori {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #a5d6a7;  /* Warna hijau pastel */
+    border-radius: 10px;
+}
+
+.kategori h2 {
+    color: #388e3c;  /* Warna hijau gelap untuk judul kategori */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.story-list {
+    list-style: none;
+    padding: 0;
+}
+
+.story-list li {
+    margin: 10px 0;
+}
+
+.story-list a {
+    text-decoration: none;
+    color: #fff;
+    background: #81c784;  /* Warna hijau pastel untuk tombol cerita */
+    padding: 15px 20px;
+    display: block;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.story-list a:hover {
+    background: #66bb6a;  /* Warna hijau sedikit lebih gelap saat hover */
+}
+
+/* Tombol kembali */
+.btn-back {
+    padding: 12px 30px;
+    background-color: #64b5f6;  /* Warna biru pastel */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #42a5f5;  /* Warna biru yang lebih gelap saat hover */
+}
+
+/* Tombol di dalam container */
+.btn-container {
+    padding: 12px 25px;
+    background-color: #a5d6a7;  /* Warna hijau pastel untuk tombol di dalam container */
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-container:hover {
+    background-color: #81c784;  /* Warna hijau sedikit lebih gelap saat hover */
+}
+
+/* Tombol Kirim Cerita (Email) */
+.btn-email {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #64b5f6;  /* Biru pastel untuk tombol */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-email:hover {
+    background-color: #42a5f5;  /* Biru yang lebih gelap saat di-hover */
+}
+
+
+/* Tampilan untuk halaman cerita */
+h1 {
+    color: #388e3c;  /* Warna hijau untuk judul cerita */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333;  /* Warna teks cerita yang gelap agar mudah dibaca */
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Kategori Cerita */
+.kategori {
+    margin-bottom: 30px;
+    padding: 25px;
+    background: #a5d6a7;  /* Warna hijau pastel untuk latar belakang kategori */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Bayangan halus untuk dimensi */
+    transition: all 0.3s ease;  /* Efek transisi saat hover */
+}
+
+.kategori:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);  /* Efek hover untuk bayangan lebih kuat */
+}
+
+.kategori h2 {
+    color: #388e3c;  /* Warna hijau gelap untuk teks judul kategori */
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;  /* Menempatkan judul kategori di tengah */
+}
+
+.story-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.story-list li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.story-list a {
+    text-decoration: none;
+    color: #fff;
+    background: #81c784;  /* Warna hijau pastel untuk tombol cerita */
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    text-align: center;  /* Menempatkan teks di tengah tombol */
+    min-width: 200px;  /* Memastikan tombol tidak terlalu kecil */
+}
+
+.story-list a:hover {
+    background: #66bb6a;  /* Warna hijau sedikit lebih gelap saat hover */
+}
